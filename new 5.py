@@ -1,0 +1,6 @@
+math=input()
+a=float(math)
+b=int(a)
+c=str(a-b)
+xs=int(c[2:15])
+print("整数部分是%d，小数部分是%d"%(b,xs))
